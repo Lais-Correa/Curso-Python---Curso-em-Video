@@ -1,7 +1,5 @@
 # Curso Python - Curso em Video
- primeiro repositorio do curso 
- 
 
-olá mundo!
-
-essa linha eu editei no site   
+Estes exercícios são do Professor Gustavo Guanabara - Curso em vídeo 
+Python 3 - Mundo 1 [40 horas]
+Exercícios realizados em Python
