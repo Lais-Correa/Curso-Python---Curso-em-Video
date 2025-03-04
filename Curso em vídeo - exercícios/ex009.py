@@ -1,0 +1,17 @@
+#faça um programa que leia um numero inteiro qualquer e mostre sua tabuada
+
+numero_Tabuada = int(input('Informe um número para saber a tabuada: '))
+print('-'*12)
+print('TABUADA DO', numero_Tabuada)
+print('-'*12)
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 1, (numero_Tabuada*1)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 2, (numero_Tabuada*2)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 3, (numero_Tabuada*3)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 4, (numero_Tabuada*4)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 5, (numero_Tabuada*5)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 6, (numero_Tabuada*6)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 7, (numero_Tabuada*7)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 8, (numero_Tabuada*8)))
+print('{} x {:2} = {:2}'. format(numero_Tabuada, 9, (numero_Tabuada*9)))
+print('{} x {} = {:2}'. format(numero_Tabuada, 10, (numero_Tabuada*10)))
+print('-'*12)
