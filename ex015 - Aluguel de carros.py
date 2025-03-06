@@ -14,5 +14,5 @@ total = rs_km + rs_dias
 print('\nO total a pagar é de: {:.2f}'. format(total))
 print('-----------------------------------------------------')
 print('Segue abaixo a descrição dos valores: ')
-print('KM - ',  km, 'X R$ 0,15 por KM rodado = R${:.2f}' .format(rs_km))
-print('DIAS - ',  dias, 'X R$60,00 por dias alugados = R${:.2f}' .format(rs_dias))
+print('KM - {:.2f} X R$ 0,15 por KM rodado = R${:.2f}' .format(km, rs_km))
+print('DIAS - {:.0f} X R$60,00 por dias alugados = R${:.2f}' .format(km, rs_dias))
