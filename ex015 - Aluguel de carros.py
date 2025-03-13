@@ -2,6 +2,8 @@
 # por um carro alugado e a quantidade de dias pelos quais ele foi alugado.
 # Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 
+#cores adicionadas após a aula 11
+
 print('\nSistema de aluguel de carros. \nInforme as informações necessarias para os cálculos:')
 print('-----------------------------------------------------')
 km = float(input('Informe os Km precorridos: '))
@@ -11,7 +13,7 @@ rs_km = (km * 0.15)
 rs_dias = dias * 60
 total = rs_km + rs_dias
 
-print('\nO total a pagar é de: {:.2f}'. format(total))
+print('\nO total a pagar é de: \033[4;34mR$ {:.2f}\033[m'. format(total)) #cores adicionadas e retiradas com o code \033[m
 print('-----------------------------------------------------')
 print('Segue abaixo a descrição dos valores: ')
 print('KM - {:.2f} X R$ 0,15 por KM rodado = R${:.2f}' .format(km, rs_km))
