@@ -13,6 +13,7 @@ idade = ano_atual - nasc
 print('Quem nasceu em {} tem {} anos em {}'.format(nasc, idade, ano_atual))
 
 if sexo == 'MASCULINO':
+    print('O alistamento militar MASCULINO é OBRIGATÓRIO!')
     if idade < 18:
         print('Ainda faltam {} anos para o alistamento'.format(18-idade))
         print('Você deve se alistar em {}'.format(nasc+18))
@@ -28,6 +29,8 @@ elif sexo == 'FEMININO':
 
     if opcao == 'S' and 18 <= idade <= 48:
         print('Você pode ir à junta militar mais próxima para se alistar voluntariamente')
+    elif opcao == 'S' and (idade < 18 or idade > 48):
+        print('Infelismente, você não está na faixa etária para o alistamento voluntário (18 a 45 anos)')
     else:
         print('Você não precisa se alistar.')
 
