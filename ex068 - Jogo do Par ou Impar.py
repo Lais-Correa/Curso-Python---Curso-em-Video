@@ -35,6 +35,3 @@ while True:
     print('-=' * 12)
 print('-='*12)
 print(f'GAME OVER! \033[34mVocê venceu {vitorias} vezes\033[m.')
-
-
-
