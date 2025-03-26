@@ -15,6 +15,7 @@ print(f'- Lista de times do Brasileirão em 2024: {cla}')
 print(f'- Os 5 primeiros são: {cla[0:5]}')
 print(f'- Os 4 últimos são: {cla[-4:]}')
 print(f'- Os times em ondem alfabética: {sorted(cla)}')
+#em 2024 o time Chapecoense não se classificou, portanto fiz esta analise de dados:
 if 'Chapecoense' in cla:
     print(f'- O Chapecoense está na {cla.index("Chapecoense")+1}˚posiçãp')
 else:
