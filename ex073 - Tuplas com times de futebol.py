@@ -21,4 +21,6 @@ if 'Chapecoense' in cla:
     print(f'- O Chapecoense está na {cla.index("Chapecoense")+1}˚posiçãp')
 else:
     print('- Infelizmente, o time Chapecoense não se classificou no Brasileirão.')
-    
+
+
+
