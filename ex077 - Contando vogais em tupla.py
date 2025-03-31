@@ -8,4 +8,6 @@ for p in palavras:
     for letra in p:
         if letra.upper() in 'AEIOU':
             print(letra.upper(), end=' ')
-            
+print('\n')
+print('-'*30)
+print('Analise de vogais finalizado!')
