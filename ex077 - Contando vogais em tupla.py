@@ -8,3 +8,4 @@ for p in palavras:
     for letra in p:
         if letra.upper() in 'AEIOU':
             print(letra.upper(), end=' ')
+            
