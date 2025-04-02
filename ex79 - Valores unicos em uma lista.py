@@ -11,6 +11,7 @@ while True:
     else:
         print('Valor duplicado, não vou adicionar...')
     r = str(input('Quer continuar? [S/N] ')).upper()
+
     if r in 'N':
         break
 num.sort()
