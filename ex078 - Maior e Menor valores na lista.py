@@ -16,6 +16,7 @@ for i, v in enumerate(num):
         print(f'{i}...', end='')
 print()
 print(f'O menor número digitado foi {menor}, nas posições ', end='')
+
 for i, v in enumerate(num):
     if v == menor:
         print(f'{i}...', end='')
