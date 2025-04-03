@@ -7,12 +7,7 @@ C) Se o valor 5 foi digitado e está ou não na lista.'''
 num = list()
 
 while True:
-    n = int(input('Digite um valor: '))
-    if n not in num:
-        num.append(n)
-        print('Valor adicionado com sucesso!')
-    else:
-        print('Valor duplicado, não vou adicionar...')
+    num.append(int(input('Digite um valor: '))        )
     r = str(input('Quer continuar? [S/N] ')).upper()
     if r in 'N':
         break
