@@ -14,7 +14,6 @@ while True:
     else:
         print('Valor duplicado, não vou adicionar...')
     r = str(input('Quer continuar? [S/N] ')).upper()
-
     if r in 'N':
         break
 print('-='*20)
@@ -25,3 +24,4 @@ if 5 in num:
     print('O valor 5 está na lista!')
 else:
     print('O valor 5 não foi digitado')
+    
