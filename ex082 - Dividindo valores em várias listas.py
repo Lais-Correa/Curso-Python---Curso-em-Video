@@ -9,12 +9,3 @@ while True:
     r = str(input('Quer continuar? [S/N] ')).upper()
     if r in 'N':
         break
-
-
-
-
-
-
-
-
-
