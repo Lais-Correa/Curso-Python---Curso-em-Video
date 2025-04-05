@@ -4,6 +4,7 @@ Depois disso, crie duas listas extras que vão conter apenas os valores pares e 
 num = list()
 pares = list()
 impares = list()
+
 while True:
     num.append(int(input('Digite um valor: ')))
     r = str(input('Quer continuar? [S/N] ')).upper()
