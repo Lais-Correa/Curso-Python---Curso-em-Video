@@ -14,6 +14,7 @@ while True:
         pares.append(valor)
     else:
         impares.append(valor)
+        
 print('-=' * 20)
 print(f'A lista completa é {num}')
 print(f'A lista de pares é {pares}')
