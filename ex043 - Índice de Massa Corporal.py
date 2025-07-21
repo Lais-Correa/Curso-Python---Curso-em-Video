@@ -2,7 +2,7 @@
 #IMC abaixo de 18,5: Abaixo do Peso,  Entre 18,5 e 25: Peso Ideal, 25 até 30: Sobrepeso, 30 até 40: Obesidade, Acima de 40: Obesidade Mórbida
 
 peso = float(input('Qual é o seu peso? (Kg) '))
-altura = float(input('Qual a sua altura? (m)'))
+altura = float(input('Qual a sua altura? (m) '))
 
 imc = peso / (altura ** 2)
 
