@@ -7,9 +7,9 @@ def sorteia(lista):
     for cont in range (0, 5):
         n = randint(1, 10)
         lista.append(n)
-        print(f'{n} ', end='')
+        print(f'{n} - ', end='')
         sleep(0.3)
-    print('>> PRONTO!')
+    print('- ->> PRONTO!')
 
 def somaPar(lista):
     soma = 0
