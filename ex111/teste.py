@@ -1,5 +1,5 @@
-from ex111 import moeda
+from ex111.utilidadescev import moeda
 
 p = float(input('Digite o preço: R$ '))
-moeda.resumo(p)
+moeda.resumo(p, 20, 12)
         
