@@ -1,3 +1,6 @@
+from ex115.lib.interface import *
+
+
 def arquivoExiste(nome):
     try:
         a = open(nome, 'rt')
@@ -15,3 +18,33 @@ def criarArquivo(nome):
         print('Houve um erro ao criar o arquivo!')
     else:
         print(f'Arquivo {nome} criado com sucesso!')
+
+
+def lerArquivo(nome):
+    try:
+        a = open(nome, 'rt')
+    except:
+        print('Erro ao ler arquivo!')
+    else:
+        cabeçalho('PESSOAS CADASTRADAS')
+        for linha in a:
+            dado = linha.split(';')
+            dado[1] = dado[1].replace('\n','')
+            print(f'{dado[0]:<30}{dado[1]:>3} anos')
+    finally:
+        a.close()
+
+
+def cadastrar(arquivo, nome ='desconhacido', idade=0):
+    try:
+        a = open(arquivo, 'at')
+    except:
+        print('Houve um ERRO na abertura do arquivo!')
+    else:
+        try:
+            a.write(f'{nome};{idade}\n')
+        except:
+            print('Houve um erro ao cadastrar o arquivo!')
+        else:
+            print(f'Novo registro de {nome} adicionado com sucesso!')
+            a.close()
